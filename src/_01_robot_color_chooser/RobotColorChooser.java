@@ -30,12 +30,21 @@ public class RobotColorChooser {
 			rob.move(1);
 			rob.turn(1);
 		}
+		 rob.turn(180);
 		for (int j = 0; j < 180; j++) {
 			rob.move(1);
-			rob.turn(180);
+			rob.turn(1);
 		}
-		 
+		rob.turn(45);
+		rob.move(199);
+	}
+		
+	rob.turn(45);
+	rob.move(199);
+	
+	}
+		
 
 	}
 
-}
+
