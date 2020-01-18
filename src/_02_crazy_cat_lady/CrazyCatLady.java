@@ -19,9 +19,15 @@ int cats =Integer.parseInt(input);
 if(cats>=3) {
 		JOptionPane.showMessageDialog(null, "you are a crazy cat lady");}
 	// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
+if(cats<3&&cats>0) {
+playVideo("https://www.youtube.com/watch?v=qxJU4PYuNP0");
 
-		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
+}			
+	if(cats==0){
+	playVideo("https://www.youtube.com/watch?v=W_juM14WHNQ");
 		
+			// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
+	}
 	}
 
 	static void playVideo(String videoURL) {
