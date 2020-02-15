@@ -22,7 +22,7 @@ public class HighLowGame {
 			// 1. Ask the user for a guess using a pop-up window, and save their response
 		String input=JOptionPane.showInputDialog("guess a number");
 			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
-		int guess=Integer.parseInt(input);
+		int guess=Integer.parseInt(input); 
 				// 5. if the guess is correct
 		
 				// 6. Win
